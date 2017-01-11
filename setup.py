@@ -60,7 +60,7 @@ from distutils.core import Distribution
 from distutils.command.build import build
 
 # the application version
-AppVersion = "9.4"
+AppVersion = "9.4.4"
 # the application name
 AppName = "LinkChecker"
 Description = "check links in web documents or full websites"
@@ -375,8 +375,7 @@ myemail = "bastian.kleineidam@web.de"
 
 data_files = [
     ('share/linkchecker',
-        ['config/linkcheckerrc',
-        'doc/html/lccollection.qhc', 'doc/html/lcdoc.qch']),
+        ['config/linkcheckerrc']),
     ('share/linkchecker/examples',
         ['cgi-bin/lconline/leer.html.en',
          'cgi-bin/lconline/leer.html.de',
